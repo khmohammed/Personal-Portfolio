@@ -139,3 +139,32 @@ li {
     background: linear-gradient(to right, #1f5f2f, #6AB17C, #1f5f2f);
     margin: 4rem 0;
 }
+
+.resume {
+  padding: 5rem 9%;
+  text-align: center;
+}
+
+.resume h1 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.resume-download {
+  margin-top: 2rem;
+}
+
+.resume-download button {
+  padding: 10px 30px;
+  background-color: #6AB17C;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.resume-download button:hover {
+  background-color: #5a9f6d;
+}
