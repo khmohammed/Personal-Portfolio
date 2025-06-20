@@ -7,6 +7,14 @@
     <!-- Connect CSS stylesheet -->
     <link rel="stylesheet" href="styles.css">
     <title>Home | Khadija Mohammed</title>
+
+    <!-- Style the footer to bypass the background color used !important to force override it -->
+    <style>
+    footer.site-footer, 
+    .site-footer * {
+        background-color: #1a1a1a !important;
+    }
+    </style>
 </head>
 
 <body>
@@ -33,7 +41,7 @@
     
     <!-- Div: photo of me -->
    <div class="home-img">
-    <img src="IMG_0043.heic" alt="Khadija Mohammed">
+    <img src="IMG_0043.jpg" alt="Khadija Mohammed">
    </div>
     <!-- Welcome message -->
     <div class="home-text">
@@ -45,5 +53,22 @@
 
 </section>
 
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Khadija Mohammed. All rights reserved.</p>
+    
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="resume.html">Resume</a>
+      <a href="projects.html">Projects</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://www.linkedin.com/in/khadija-mohammed-6862a6204/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/khmohammed" target="_blank">GitHub</a>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
