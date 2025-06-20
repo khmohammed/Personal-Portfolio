@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Connect CSS stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact | Khadija Mohammed</title>
+</head>
+
+<body>
+<header>
+    <!-- Navigation Bar common across all pages -->
+    <img class="logo" src="K.png" alt="Khadija Mohammed Logo" style="width: 8%;">
+    <div class="header-right">
+        <nav>
+            <ul class="nav_links">
+                <li class="li-nav-links"><a href="index.html">Home</a></li>
+                <li class="li-nav-links"><a href="about.html">About</a></li>
+                <li class="li-nav-links"><a href="resume.html">Resume</a></li>
+                <li class="li-nav-links"><a href="projects.html">Projects</a></li>
+                <li class="li-nav-links"><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <!-- Contact button -->
+        <a class="cta" href="contact.html"><button>Contact</button></a>
+    </div>
+</header>
+
+<section class="contact-section">
+    <h1>Contact</h1>
+    <!--Bringing down the Contact header to not collide with the navbar-->
+    <style>
+    .contact-section {
+        padding-top: 12rem; 
+    }
+    </style>
+
+
+    <p>If you're interested in collaborating, mentoring, or connecting professionally, I'd love to hear from you!</p>
+
+    <!-- Contact Form -->
+    <form class="contact-form" action="mailto:your.email@example.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" name="subject" placeholder="Subject" required />
+      <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <!-- Social Links -->
+    <div class="social-links">
+      <h2>Check out my socials!</h2>
+      <a href="https://www.linkedin.com/in/khadija-mohammed-6862a6204/" target="_blank">
+        <img src="LinkedIn_icon.svg.png" alt="LinkedIn Logo" style="width: 3%;">
+      </a>
+      <a href="https://github.com/khmohammed" target="_blank">
+        <img src="25231.png" alt="GitHub Logo" style="width: 3%;">
+      </a>
+    </div>
+  </section>
+</body>
+</html>
